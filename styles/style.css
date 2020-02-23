@@ -1,0 +1,66 @@
+.field {
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.block1 {
+    width: 150px;
+    height: 150px;
+    background: orange;
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+}
+
+.window {
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.door  {
+        width: 40px;
+        height: 100px;
+        background: brown;
+        position: absolute;
+        bottom: 0px;
+        left: 130px;
+}
+
+.roof {
+    z-index: 2;
+    width: 0;
+    height: 0;
+    /* background: red; */
+    position: absolute;
+    left: 95px;
+    top: 50px;
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    border-left: 100px solid transparent;
+}
+
+.tube {
+    width: 30px;
+    height: 40px;
+    background: brown;
+    position: absolute;
+    bottom: 180px;
+    left: 130px;
+}
+.smoke {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: blue;
+    position: absolute;
+    bottom: 230px;
+    left: 120px;
+}
